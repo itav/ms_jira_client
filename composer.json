@@ -1,4 +1,5 @@
 {
+  "name": "itav/ms_jira_client",
   "require": {
     "silex/silex": "~2.0",
     "guzzlehttp/guzzle": "^6.2"
