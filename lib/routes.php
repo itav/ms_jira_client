@@ -1,4 +1,5 @@
 <?php
 
 
-$app->match('/', 'App\\Controller::someAction')->method('GET|POST')->bind('homepage')->before($auth);
+$app->get('/tasks', 'App\\Controller::getTasks')
+    ->bind('homepage');
