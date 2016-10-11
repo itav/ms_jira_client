@@ -2,7 +2,8 @@
   "name": "itav/ms_jira_client",
   "require": {
     "silex/silex": "~2.0",
-    "guzzlehttp/guzzle": "^6.2"
+    "guzzlehttp/guzzle": "^6.2",
+    "itav/serializer": "^1.1"
   },
 
   "autoload" : {
